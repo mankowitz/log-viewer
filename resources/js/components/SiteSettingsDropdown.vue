@@ -77,17 +77,6 @@
             </a>
           </MenuItem>
 
-          <div class="divider"></div>
-
-          <MenuItem v-slot="{ active }">
-            <a href="https://www.buymeacoffee.com/arunas" target="_blank" :class="[active ? 'active' : '']">
-              <div class="w-4 h-4 mr-3 flex flex-col items-center">
-                <bmc-icon class="h-4 w-auto" />
-              </div>
-              <strong :class="[active ? 'text-white' : 'text-brand-500']">Show your support</strong>
-              <ArrowTopRightOnSquareIcon class="ml-2 w-4 h-4 opacity-75" />
-            </a>
-          </MenuItem>
         </div>
       </MenuItems>
     </transition>
